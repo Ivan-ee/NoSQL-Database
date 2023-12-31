@@ -1,0 +1,19 @@
+{
+  "book": {
+    "title": "IT",
+    "author": "Stephen King",
+    "price": 29.99,
+    "details": {
+      "genre": "Horror",
+      "year": 1986,
+      "availability": true
+    },
+    "reviews": {
+      "user": "PennywiseFan",
+      "rating": 4.9,
+      "comment": "You'll never look at clowns the same way again!"
+    }
+  },
+  "date": "2023-12-04",
+  "email": "pennywise@example.com"
+}

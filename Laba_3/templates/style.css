@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff; /* Голубой фон */
+    color: #333; /* Цвет текста */
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+form {
+    background-color: #fff; /* Белый фон для формы */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+input,
+button {
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #4da6ff; /* Голубой цвет для кнопки */
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3; /* Темно-голубой цвет при наведении */
+}
+
+a {
+    color: #0056b3; /* Темно-голубой цвет для ссылок */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Дополнительные стили для страницы "Обо мне" */
+h1, p {
+    margin: 0;
+}
+
+#about {
+    background-color: #fff; /* Белый фон для блока "Обо мне" */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}

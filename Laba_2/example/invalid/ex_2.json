@@ -1,0 +1,18 @@
+{
+  "book": {
+    "title": "Carrie",
+    "author": "Stephen King",
+    "price": 12.99,
+    "details": {
+      "genre": "Horror",
+      "year": "1974",
+      "availability": "yes"
+    },
+    "reviews": {
+      "user": "HorrorFanatic",
+      "rating": 5
+    }
+  },
+  "date": "2023",
+  "email": "horror_fan@example.com"
+}

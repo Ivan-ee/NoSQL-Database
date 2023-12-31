@@ -1,0 +1,13 @@
+{
+  "book": {
+    "title": "Eugene Onegin",
+    "author": "Alexander Pushkin",
+    "price": "twenty dollars",
+    "details": {
+      "genre": "Verse Novel",
+      "availability": null
+    }
+  },
+  "date": "2023-12-05: 11-30-00",
+  "email": "literature@example.com"
+}

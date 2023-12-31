@@ -1,0 +1,19 @@
+{
+  "book": {
+    "title": "The Shining",
+    "author": "Stephen King",
+    "price": 24.99,
+    "details": {
+      "genre": "Horror",
+      "year": 1977,
+      "availability": true
+    },
+    "reviews": {
+      "user": "HorrorFan1",
+      "rating": 4.8,
+      "comment": "A terrifying masterpiece!"
+    }
+  },
+  "date": "2023-12-03",
+  "email": "horror@"
+}

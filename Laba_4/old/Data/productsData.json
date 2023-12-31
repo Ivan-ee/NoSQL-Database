@@ -1,0 +1,33 @@
+[
+  {
+    "name": "Laptop",
+    "model": "XYZ123",
+    "price": 1200,
+    "options": {
+      "rating": 4.5,
+      "description": "Powerful laptop with high performance",
+      "count": 10
+    }
+  },
+  {
+    "name": "Headphones",
+    "model": "ABC456",
+    "price": 80,
+    "options": {
+      "rating": 4.2,
+      "description": "Wireless headphones with noise cancellation",
+      "count": 50
+    }
+  },
+  {
+    "name": "Smartphone",
+    "model": "123XYZ",
+    "price": 600,
+    "options": {
+      "rating": 4.0,
+      "description": "Latest smartphone with advanced features",
+      "count": 20
+    }
+  }
+]
+

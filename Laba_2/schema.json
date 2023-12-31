@@ -1,0 +1,92 @@
+{
+  "type": "object",
+  "properties": {
+    "book": {
+      "type": "object",
+      "properties": {
+        "title": {
+          "type": "string",
+          "minLength": 1
+        },
+        "author": {
+          "type": "string",
+          "minLength": 1
+        },
+        "price": {
+          "type": "number",
+          "minimum": 0
+        },
+        "details": {
+          "type": "object",
+          "properties": {
+            "genre": {
+              "type": "string",
+              "minLength": 1
+            },
+            "year": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "availability": {
+              "type": "boolean",
+              "default": true
+            }
+          },
+          "required": [
+            "genre",
+            "year",
+            "availability"
+          ],
+          "additionalProperties": false
+        },
+        "reviews": {
+          "type": "object",
+          "properties": {
+            "user": {
+              "type": "string",
+              "minLength": 1
+            },
+            "rating": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 5
+            },
+            "comment": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "required": [
+            "user",
+            "rating",
+            "comment"
+          ],
+          "additionalProperties": false
+        }
+      },
+      "required": [
+        "title",
+        "author",
+        "price",
+        "details",
+        "reviews"
+      ],
+      "additionalProperties": false
+    },
+    "date": {
+      "type": "string",
+      "format": "date"
+    },
+    "email": {
+      "type": "string",
+      "format": "email",
+      "minLength": 3
+    }
+  },
+  "required": [
+    "book",
+    "date",
+    "email"
+  ],
+  "additionalProperties": false
+}
